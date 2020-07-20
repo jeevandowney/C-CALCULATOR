@@ -45,6 +45,6 @@ int main()
     printf("INVALID OPERATOR");
   }
   /* TO PRINT THE RESULT */
-  printf("%d %c %d = %f",num1,operator,num2,results);
+  printf("%d %c %d = %.6f",num1,operator,num2,results);
   return 0;
 }
