@@ -37,7 +37,7 @@ int main()
 
     /* FOR DIVISION */
     case '/':
-    results = num1/num2;
+    results = (float)num1/(float)num2;
     break;
 
     /* IF INVALID OPERATOR IS ENTERED */
